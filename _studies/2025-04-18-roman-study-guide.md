@@ -1,13 +1,12 @@
 ---
-title: Roman Study Guide
-layout: default
+title: Romans 3:21-31 Study Guide 
+layout: default 
+permalink: /studies/2025/04/18/roman-study-guide/
 ---
 
 
 # Roman Study Guide
-...
 
-title: Romans 3:21-31 Study Guide layout: default permalink: /2025/04/18/roman-study-guide/
 
 Romans 3:21-31 Study Guide
 
@@ -15,13 +14,7 @@ This study guide applies the Double Discourse Theory (DDT) to Romans 3:21-31, in
 
 1. Connecting to Life
 
-
-
-
-
 Question: When do you feel “not good enough” or driven to “prove” your worth?
-
-
 
 Context: Romans 1:18-3:20 establishes universal sinfulness. Romans 3:21 introduces God’s solution: “But now…”
 
@@ -31,25 +24,14 @@ Read Romans 3:21-31 aloud or silently.
 
 Guiding Questions
 
-
-
-
-
 What is “God’s righteousness” (v.21)? How does it differ from the “law”?
-
 
 
 What does “justified freely” (v.24) mean? Explore “redemption” and “propitiation” (v.25) in their historical context.
 
-
-
 How does this passage balance God’s justice and justification (v.25-26)?
 
-
-
 Why does Paul say there’s “no boasting” (v.27)? How does this affect Jew-Gentile relations?
-
-
 
 What does “we uphold the law” (v.31) mean?
 

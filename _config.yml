@@ -10,10 +10,16 @@ plugins:
 collections:
   studies:
     output: true
+    permalink: /studies/:year/:month/:day/:title/
 defaults:
   - scope:
       path: ""
+      type: studies
     values:
       layout: default
-
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
 incremental: true
