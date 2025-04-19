@@ -27,3 +27,4 @@ Disallow: /internal/
 
 # Sitemap
 Sitemap: https://talk1.top/sitemap.xml
+

@@ -1,27 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | 道言学堂</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+    <link rel="icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+    <link rel="canonical" href="https://talk1.top{{ page.url }}">
     {% seo %}
-    <script async src="https://cse.google.com/cse.js?cx=f3e2e84e3a8bf4b3d">
-    </script>
-    <div class="gcse-search"></div>
+    <!-- Google Programmable Search Engine Script -->
+    <script async src="https://cse.google.com/cse.js?cx=f3e2e84e3a8bf4b3d"></script>
 </head>
-<body>
-    <header>
-        <h1>道言学堂</h1>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-blue-600 text-white p-4">
+        <h1 class="text-2xl">道言学堂</h1>
         <nav>
-            <a href="/">Home</a>
-            <a href="/2025-04-18-roman-study-guide.md">Study Guide</a>
-            <!-- Add Search Link -->
-            <a href="/search.md" class="mr-4">Search</a>
+            <a href="/" class="mr-4">Home</a>
+            <a href="/2025/04/18/roman-study-guide/" class="mr-4">Study Guide</a>
+            <a href="/search/" class="mr-4">Search</a>
         </nav>
     </header>
-    <main>
+    <main class="container mx-auto p-4">
+        <nav class="breadcrumb">
+            <a href="/">Home</a> {% if page.url != '/' %} > <a href="{{ page.url }}">{{ page.title }}</a> {% endif %}
+          </nav>
         {{ content }}
+        <!-- Search box for inline search on non-search pages -->
+        <div class="gcse-searchbox-only" data-resultsUrl="/search/"></div>
     </main>
-    <footer>
+    <footer class="bg-gray-800 text-white p-4 text-center">
         <p>© 2025 道言学堂. All rights reserved.</p>
     </footer>
 </body>
