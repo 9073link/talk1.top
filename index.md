@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 title: Welcome to 道言学堂
 
 道言学堂 | Daoyan Academy
