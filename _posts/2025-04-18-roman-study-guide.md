@@ -1,3 +1,36 @@
+---
+title: Roman Study Guide
+layout: default
+---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Roman Study Guide",
+  "description": "A Bible study guide for Romans using Double Discourse Theory.",
+  "author": {
+    "@type": "Organization",
+    "name": "道言学堂"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "道言学堂",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://talk1.top/assets/images/logo.png"
+    }
+  },
+  "url": "https://talk1.top/2025/04/18/roman-study-guide/",
+  "mainEntityOfPage": "https://talk1.top/2025/04/18/roman-study-guide/",
+  "datePublished": "2025-04-18",
+  "dateModified": "2025-04-18",
+  "image": "https://talk1.top/assets/images/roman-study.jpg"
+}
+</script>
+
+# Roman Study Guide
+...
+
 title: Romans 3:21-31 Study Guide layout: default permalink: /2025/04/18/roman-study-guide/
 
 Romans 3:21-31 Study Guide
@@ -127,3 +160,12 @@ Reflect on how this study bridges knowledge and life. Commit to one faith action
 
 
 Join us for more transformative studies at 道言学堂.
+
+## Frequently Asked Questions
+**What is the Book of Romans about?**
+The Book of Romans is a letter by Paul, explaining salvation and righteousness.
+
+**How does DDT enhance Romans study?**
+DDT reveals dual meanings in Paul’s teachings, deepening understanding.
+
+Read [Romans 1](https://www.biblegateway.com/passage/?search=Romans+1) for context.

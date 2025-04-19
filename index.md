@@ -39,3 +39,11 @@ Follow us on social media for updates.
 
 
 “Let the Word shape your being and becoming.”
+
+## What is Double Discourse Theory?
+Double Discourse Theory (DDT) is a method for interpreting biblical texts by analyzing dual layers of meaning. It helps readers uncover deeper spiritual insights.
+
+### How to Study the Bible with DDT
+- **Step 1**: Read the passage in context.
+- **Step 2**: Identify primary and secondary discourses.
+- **Step 3**: Apply insights to modern life.

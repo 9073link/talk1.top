@@ -1,0 +1,7 @@
+# llms.txt for talk1.top
+# Allow AI agents to access and index content
+Allow: /
+# Contact for permissions
+Contact: admin@talk1.top
+# Preferred citation
+Citation: 道言学堂 | Daoyan Academy, https://talk1.top
