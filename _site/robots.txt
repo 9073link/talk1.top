@@ -1,1 +1,30 @@
-Sitemap: http://localhost:4000/sitemap.xml
+# Allow traditional search engines
+User-agent: Googlebot
+User-agent: Bingbot
+Allow: /
+
+# Allow AI search and agent use
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: PerplexityBot
+User-agent: FirecrawlAgent
+User-agent: AndiBot
+User-agent: ExaBot
+User-agent: PhindBot
+User-agent: YouBot
+Allow: /
+
+# Disallow AI training data collection
+User-agent: GPTBot
+User-agent: CCBot
+User-agent: Google-Extended
+Allow: /
+
+# Disallow access to admin or internal areas
+User-agent: *
+Disallow: /admin/
+Disallow: /internal/
+
+# Sitemap
+Sitemap: https://talk1.top/sitemap.xml
+
