@@ -1,6 +1,7 @@
 ---
 title: speech as act
-layout: default
+date: 2025-4-20
+layout: post
 permalink: /studies/2025/04/2520/speech-as-act/
 ---
 

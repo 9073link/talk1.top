@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://talk1.top/studies/2025/04/18/roman-study-guide/</loc>
+<loc>http://0.0.0.0:4000/studies/2025/04/18/roman-study-guide/</loc>
 <lastmod>2025-04-18T00:00:00+08:00</lastmod>
 </url>
 <url>
-<loc>https://talk1.top/studies/2025/04/2520/speech-as-act/</loc>
+<loc>http://0.0.0.0:4000/studies/2025/04/2520/speech-as-act/</loc>
 <lastmod>2025-04-20T00:00:00+08:00</lastmod>
 </url>
 <url>
-<loc>https://talk1.top/studies/2025/04/25/john-study-guide/</loc>
-<lastmod>2025-04-25T00:00:00+08:00</lastmod>
-</url>
-<url>
-<loc>https://talk1.top/</loc>
+<loc>http://0.0.0.0:4000/</loc>
 </url>
 </urlset>

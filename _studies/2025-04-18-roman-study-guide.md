@@ -1,5 +1,6 @@
 ---
 title: Romans 3:21-31 Study Guide 
+date: 2025-4-18
 layout: default 
 permalink: /studies/2025/04/18/roman-study-guide/
 ---

@@ -4,24 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | 道言学堂</title>
-    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
     <link rel="icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
     <link rel="canonical" href="https://talk1.top{{ page.url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+    <style>
+        .share-btn {
+            display: inline-block;
+            padding: 8px 16px;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+        .share-x {
+            background-color: #000;
+        }
+        .share-x:hover {
+            background-color: #333;
+        }
+        .share-wechat {
+            background-color: #07c160;
+        }
+        .share-wechat:hover {
+            background-color: #059c4b;
+        }
+    </style>
+    <script>
+        function shareToWechat(url) {
+            navigator.clipboard.writeText(url)
+                .then(() => alert('链接已复制到剪贴板，请粘贴到微信分享！'))
+                .catch(() => alert('复制失败，请手动复制链接：' + url));
+        }
+    </script>
+    </style>
     {% seo %}
     <script async src="https://cse.google.com/cse.js?cx=f3e2e84e3a8bf4b3d"></script>
 </head>
 <body class="bg-gray-100 font-sans">
     <header class="bg-blue-600 text-white p-4">
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.date | date: "%Y-%m-%d" }}</p>
         <h1 class="text-2xl">道言学堂</h1>
         <nav>
             <a href="/" class="mr-4">Home</a>
             <div class="dropdown inline-block relative">
                 <a href="#" class="mr-4">Study Guides</a>
-                <div class="dropdown-content absolute hidden bg-white text-gray-800 shadow-lg">
+                <ul class="dropdown-content absolute hidden bg-white text-gray-800 shadow-lg">
                     {% for study in site.studies %}
-                        <a href="{{ study.url | relative_url }}" class="block px-4 py-2 hover:bg-gray-200">{{ study.title }}</a>
+                        <li>
+                            <a href="{{ study.url | relative_url }}">{{ study.title }}</a>
+                            <!-- Optional: Add date or excerpt -->
+                            <span class="text-gray-500 text-sm">({{ study.date | date: "%Y-%m-%d" }})</span>
+                        </li>
                     {% endfor %}
-                </div>
+                </ul>
             </div>
             <a href="/search/" class="mr-4">Search</a>
         </nav>
@@ -34,6 +71,11 @@
             {% endif %}
         </nav>
         {{ content }}
+
+        <div>
+            <a class="share-btn share-x" href="https://x.com/intent/post?url={{ site.url }}{{ page.url | relative_url }}&text=Check out this study guide: {{ page.title | url_encode }}" target="_blank">Share to X</a>
+            <a class="share-btn share-wechat" href="javascript:void(0)" onclick="shareToWechat('{{ site.url }}{{ page.url | relative_url }}')">Share to Wechat</a>
+        </div>
         <div class="gcse-searchbox-only" data-resultsUrl="/search/"></div>
     </main>
     <footer class="bg-gray-800 text-white p-4 text-center">
