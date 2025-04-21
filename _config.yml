@@ -8,13 +8,21 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 collections:
-  studies:
+  en_studies:
+    output: true
+    permalink: /en/studies/:year/:month/:day/:title/
+  zh_studies:
     output: true
     permalink: /studies/:year/:month/:day/:title/
 defaults:
   - scope:
       path: ""
-      type: studies
+      type: en_studies
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: zh_studies
     values:
       layout: default
   - scope:

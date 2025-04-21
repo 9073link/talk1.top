@@ -49,16 +49,20 @@
         <nav>
             <a href="/" class="mr-4">Home</a>
             <div class="dropdown inline-block relative">
-                <a href="#" class="mr-4">Study Guides</a>
-                <ul class="dropdown-content absolute hidden bg-white text-gray-800 shadow-lg">
-                    {% for study in site.studies %}
-                        <li>
-                            <a href="{{ study.url | relative_url }}">{{ study.title }}</a>
-                            <!-- Optional: Add date or excerpt -->
-                            <span class="text-gray-500 text-sm">({{ study.date | date: "%Y-%m-%d" }})</span>
-                        </li>
+                <a href="#" class="mr-4">English Study Guides</a>
+                <div class="dropdown-content absolute hidden bg-white text-gray-800 shadow-lg">
+                    {% for study in site.en_studies %}
+                        <a href="{{ study.url | relative_url }}" class="block px-4 py-2 hover:bg-gray-200">{{ study.title }}</a>
                     {% endfor %}
-                </ul>
+                </div>
+            </div>
+            <div class="dropdown inline-block relative">
+                <a href="#" class="mr-4">Chinese Study Guides</a>
+                <div class="dropdown-content absolute hidden bg-white text-gray-800 shadow-lg">
+                    {% for study in site.zh_studies %}
+                        <a href="{{ study.url | relative_url }}" class="block px-4 py-2 hover:bg-gray-200">{{ study.title }}</a>
+                    {% endfor %}
+                </div>
             </div>
             <a href="/search/" class="mr-4">Search</a>
         </nav>

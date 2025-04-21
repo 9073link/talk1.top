@@ -2,7 +2,7 @@
 title: Act On His Words
 date: 2025-4-20
 layout: post
-permalink: /studies/2025/04/20/act-on-his-words/
+permalink: /zh/studies/2025/04/20/act-on-his-words/
 ---
 
 # **十架七言：十字架上“言出即行”的终极力量**
